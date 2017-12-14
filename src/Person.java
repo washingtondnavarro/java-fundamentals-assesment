@@ -6,7 +6,7 @@ public class Person implements Greeter {
         this.lastName = lastName;
     }
 
-    protected String firstName;
+    protected static String firstName;
 
     protected String lastName;
 

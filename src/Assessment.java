@@ -4,9 +4,9 @@ import java.util.*;
 public class Assessment {
 
 //square: should accept and return a single integer number. The method should return the number times itself.
-int numberUno;
-int numberTwo;
-int total;
+//int numberUno;
+//int numberTwo;
+//int total;
 
     public static long square(int numberUno){
         int total;
@@ -28,8 +28,8 @@ int total;
 
 
 
-//    public class Arrays() {
-        public static void main(String[] args){
+    public static class Arrays{
+//        public static void main(String[] args){
         double [] values = {1, 2, 3, 4, 5};
         double total = 0;
         for (double element : values){
@@ -37,13 +37,15 @@ int total;
     }
         System.out.println(total);
          double average = 0;
-         if (values.lenth > 0) {
+         if (values.length > 0) {
              average = total / values.length;
          };
 
+
+
          public static void capitalizeRecords() {
              ArrayList<String> fullNames = new ArrayList<>();
-             fullNames.add(User.firstName, User.lastNAme);
+             fullNames.add(User.firstName, User.lastName);
          }
 
              System.out.println(capitalizeRecords());
